@@ -4,6 +4,10 @@
     box-sizing: border-box;
     }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenitore{
     width:1000px;
     margin:0 auto;
@@ -26,21 +30,42 @@
 }
 
 .fronte{
- position: absolute;
- top: 0;
- left: 0;
-  z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+     z-index: 99;
+   }
+
+   .marche{
+    
+    font-size: 14px;
 }
 
 
+.prezzo{
+    font-size: 15px;
+    color:red;
+}
 
+.scontato{
+    color: black;
+    text-decoration:line-through;
+    
+    
+}
 
 
 
 
 /* -------------------------------- */
+
 .fronte:hover{
     display: none;
 }
+
+
+
+
+
 
 
