@@ -75,6 +75,10 @@ body{
     display: none;
 }
 
+.cuore:hover{
+    color:red;
+}
+
 
 
 
