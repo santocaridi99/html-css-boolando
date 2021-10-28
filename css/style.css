@@ -6,7 +6,6 @@
 
 .contenitore{
     width:1000px;
-    border: 2px solid black;
     margin:0 auto;
 }
 
@@ -14,8 +13,34 @@
     height:480px;
     width: calc(1000px / 3 - 33px);
     margin: 0 10px;
-    background-color: blanchedalmond;
-    border: 1px solid black;
+    background-color: white;
     display: inline-block;
+    position: relative;
+    
+   
 }
+
+.card img{
+    width:100%;
+    
+}
+
+.fronte{
+ position: absolute;
+ top: 0;
+ left: 0;
+  z-index: 99;
+}
+
+
+
+
+
+
+
+/* -------------------------------- */
+.fronte:hover{
+    display: none;
+}
+
 
