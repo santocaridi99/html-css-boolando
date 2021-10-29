@@ -66,6 +66,25 @@ body{
     z-index: 99;
 }
 
+.riga{
+    position: absolute;
+    z-index:99;
+    bottom: 60px;
+    left:10px
+}
+
+.sconto{
+    background-color: red;
+    padding:5px 8px;
+    font-size: 13px;
+    color:white;
+}
+
+.tag{
+    background-color: green;
+    padding:4px 8px;
+    color: white;
+}
 
 
 
